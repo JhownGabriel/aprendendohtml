@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Ola mundo</title>
+	</head>
+	<body>
+	</body>
+</html>

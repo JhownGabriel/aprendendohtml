@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        table,
+        th,
+        td,
+        tr {
+            border-collapse: collapse;
+            border-style: outset;
+            padding: 5px;
+        }
+
+        th {
+            background-color: gray;
+        }
+
+        td {
+            background-color: rgb(209, 209, 209);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>tabela</h1>
+
+    <table> <!-- abrimento da tabela de produtos -->
+        <tr>
+            <td></td>
+
+            <th>cod</th> <!-- cabecario da tabela -->
+            <th>produto</th>
+            <th>valor</th>
+        </tr>
+        <tr> <!-- produto 1 -->
+            <td rowspan="4">produtos</td>
+            <td>1</td>
+            <td>arroz</td>
+            <td>R$5,00</td>
+        </tr>
+        <tr> <!-- produto 2 -->
+            <td>2</td>
+            <td>feijao</td>
+            <td>R$3,00</td>
+        </tr>
+        <tr> <!-- produto 3 -->
+            <td>3</td>
+            <td>salada</td>
+            <td>R$5,00</td>
+        </tr>
+        <tr> <!-- produto 4 -->
+            <td>4</td>
+            <td>proteína</td>
+            <td>R$10,00</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2">total</td>
+            <td>R$23,00</td>
+        </tr>
+    </table> <!-- fechamento da tabela de produtos -->
+</body>
+
+</html>
